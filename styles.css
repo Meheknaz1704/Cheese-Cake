@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.cake-recipe h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+.dots {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.dots p {
+    padding-left: 10px;
+    font-style: italic;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+
+}
+
+.cake img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.icon-spoon {
+    color: #f59e52;
+
+}
+.para > p:last-child{
+    color: #fb7908;
+    font-family: 'Montserrat';
+    font-size: 12px;
+
+    
+    
+
+}
+.para > p:first-child{
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgb(144, 141, 141);
+
+
+}
+.serve {
+    display: flex;
+}
+
+.para {
+    padding-left: 10px;
+}
+
+ul li {
+    display: flex;
+
+}
+
+.middle-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.material {
+    display: flex;
+    gap: 10px;
+}
+.upper{
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 18px;
+    color: rgb(144, 141, 141);
+}
+.upper > p:last-child{
+    font-weight: 500;
+    font-family: 'Montserrat';
+
+
+}
+.material p{
+    font-size: 10px;
+    font-family: 'Montserrat';
+
+}
+.last-section h2{
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin:0 0 15px 0 ;
+
+}
+.graham{
+    font-style: italic;
+    font-size: 21px;
+}
+.cheese{
+    margin: 40px 0 10px 0;
+    font-style: italic;
+    font-size: 21px;
+}
+
+li p
+ {
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    line-height: 27px;
+
+
+
+
+}
+
+li input {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    padding-left: 10px;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+
+
+
+}
+.topping{
+    font-weight: 500;
+    font-style: italic;
+}
+.last-div h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+font-weight: 700;
+
+}
+.adjust{
+    display: flex;
+}
+button{
+    width: 57px;
+    height: 31px;
+    background-color: #f59e52;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.last-div p {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    line-height: 25px;
+}
+.icons-section{
+    display: none;
+}
+.whole-container{
+    display: block;
+}
+
+@media screen and (min-width:1024px) {
+    .container{
+        width: 80%;
+    }
+    .cake-recipe h1{
+        font-size: 40px;
+    }
+    .dots p{
+        width: 70%;
+    }
+    .icons-section{
+        display: block;
+        margin-top: 22px;
+        border: 2px solid black;
+        height: 330px;
+        width:200px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 0px 0px 20px  rgba(0,0,0,0.1);
+        
+    }
+    .serve{
+        margin-top: 50px;
+        justify-content: center;
+    }
+    .material{
+        justify-content: center;
+        margin-top: 30px;
+        line-height: 20px;
+    }
+    .last-section{
+        width: 70%;
+
+    }
+    .box1{
+        display: none;
+    }
+    .whole-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .middle-section{
+        display: block;
+    }
+    button{
+        width: 40px;
+    }
+    .last-div p{
+        width: 50%
+    };
+}
