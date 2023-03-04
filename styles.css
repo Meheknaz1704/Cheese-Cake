@@ -34,20 +34,23 @@
     border-radius: 10px;
     margin-bottom: 30px;
 }
+
 .icon-spoon {
     color: #f59e52;
 
 }
-.para > p:last-child{
+
+.para>p:last-child {
     color: #fb7908;
     font-family: 'Montserrat';
     font-size: 12px;
 
-    
-    
+
+
 
 }
-.para > p:first-child{
+
+.para>p:first-child {
     font-family: 'Montserrat';
     text-transform: uppercase;
     font-size: 10px;
@@ -55,6 +58,7 @@
 
 
 }
+
 .serve {
     display: flex;
 }
@@ -79,41 +83,46 @@ ul li {
     display: flex;
     gap: 10px;
 }
-.upper{
+
+.upper {
     text-transform: uppercase;
     font-size: 10px;
     line-height: 18px;
     color: rgb(144, 141, 141);
 }
-.upper > p:last-child{
+
+.upper>p:last-child {
     font-weight: 500;
     font-family: 'Montserrat';
 
 
 }
-.material p{
+
+.material p {
     font-size: 10px;
     font-family: 'Montserrat';
 
 }
-.last-section h2{
+
+.last-section h2 {
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    margin:0 0 15px 0 ;
+    margin: 0 0 15px 0;
 
 }
-.graham{
+
+.graham {
     font-style: italic;
     font-size: 21px;
 }
-.cheese{
+
+.cheese {
     margin: 40px 0 10px 0;
     font-style: italic;
     font-size: 21px;
 }
 
-li p
- {
+li p {
     padding-left: 10px;
     margin-top: 20px;
     font-family: 'Montserrat';
@@ -135,21 +144,25 @@ li input {
 
 
 }
-.topping{
+
+.topping {
     font-weight: 500;
     font-style: italic;
 }
-.last-div h2{
+
+.last-div h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
-font-weight: 700;
+    font-weight: 700;
 
 }
-.adjust{
+
+.adjust {
     display: flex;
 }
-button{
+
+button {
     width: 57px;
     height: 31px;
     background-color: #f59e52;
@@ -163,61 +176,76 @@ button{
     padding-left: 20px;
     line-height: 25px;
 }
-.icons-section{
+
+.icons-section {
     display: none;
 }
-.whole-container{
+
+.whole-container {
     display: block;
 }
 
 @media screen and (min-width:1024px) {
-    .container{
+    .container {
         width: 80%;
     }
-    .cake-recipe h1{
+
+    .cake-recipe h1 {
         font-size: 40px;
     }
-    .dots p{
+
+    .dots p {
         width: 70%;
     }
-    .icons-section{
+
+    .icons-section {
         display: block;
         margin-top: 22px;
         border: 2px solid black;
         height: 330px;
-        width:200px;
+        width: 200px;
         border-radius: 10px;
         border: none;
-        box-shadow: 0px 0px 20px  rgba(0,0,0,0.1);
-        
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
     }
-    .serve{
+
+    .serve {
         margin-top: 50px;
         justify-content: center;
     }
-    .material{
+
+    .material {
         justify-content: center;
         margin-top: 30px;
         line-height: 20px;
     }
-    .last-section{
+
+    .last-section {
         width: 70%;
 
     }
-    .box1{
+
+    .box1 {
         display: none;
     }
-    .whole-container{
+
+    .whole-container {
         display: flex;
         justify-content: space-between;
     }
-    .middle-section{
+
+    .middle-section {
         display: block;
     }
-    button{
+
+    button {
         width: 40px;
     }
-    .last-div p{
+
+    .last-div p {
         width: 50%
-    };
+    }
+
+    ;
 }
